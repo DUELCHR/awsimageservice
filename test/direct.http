@@ -1,0 +1,6 @@
+### test signed URL
+get http://localhost:4004/image/getSignedUrl(url='https%3A%2F%2Fliquipedia.net%2Fcommons%2Fimages%2F0%2F08%2FEndpoint_2020_Dark.png')
+### test Picture
+get http://localhost:4004/image/getImage(url='https%3A%2F%2Fliquipedia.net%2Fcommons%2Fimages%2F0%2F08%2FEndpoint_2020_Dark.png')?$format=json
+### test inplace Server
+get http://localhost:4004/getImageSrv?url=https://www.diamond-painting-deutschland.de/images/product_images/original_images/Wasserfaelle-400x180-100x45cm-150Farben_0_1204_0.png&height=600&width=200
